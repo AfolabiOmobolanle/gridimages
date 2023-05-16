@@ -4,10 +4,27 @@
 }
 
 body{
-    height: 100svh;
+    height: 100vh;
 }
 
 .container{
     height: 100%;
-background:#c5c5c5;
+    background:#f9f9fc;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.box{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+img{
+    width:20rem;   
+    height: 15rem;
 }
